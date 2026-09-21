@@ -7,20 +7,14 @@
   "exports": {
     "./ShipMyForm.astro": "./ShipMyForm.astro"
   },
-  "files": [
-    "ShipMyForm.astro"
-  ],
+  "files": ["ShipMyForm.astro"],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ShipMyForm/shipmyform-js.git",
     "directory": "packages/astro"
   },
-  "keywords": [
-    "shipmyform",
-    "forms",
-    "astro"
-  ],
+  "keywords": ["shipmyform", "forms", "astro"],
   "dependencies": {
     "@shipmyform/core": "workspace:*"
   },

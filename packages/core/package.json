@@ -13,9 +13,7 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "sideEffects": false,
   "license": "MIT",
   "repository": {
@@ -24,12 +22,7 @@
     "directory": "packages/core"
   },
   "homepage": "https://shipmyform.com",
-  "keywords": [
-    "shipmyform",
-    "forms",
-    "form-backend",
-    "fetch"
-  ],
+  "keywords": ["shipmyform", "forms", "form-backend", "fetch"],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "test": "vitest run"
