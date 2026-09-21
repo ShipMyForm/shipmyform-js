@@ -2,6 +2,7 @@
   "name": "@shipmyform/vue",
   "version": "0.1.0",
   "description": "Vue composable for submitting forms to ShipMyForm.",
+  "homepage": "https://shipmyform.com",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",

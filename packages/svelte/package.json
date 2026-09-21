@@ -2,6 +2,7 @@
   "name": "@shipmyform/svelte",
   "version": "0.1.0",
   "description": "Svelte store and action for submitting forms to ShipMyForm.",
+  "homepage": "https://shipmyform.com",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
