@@ -1,6 +1,6 @@
 {
   "name": "@shipmyform/svelte",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Svelte store and action for submitting forms to ShipMyForm.",
   "homepage": "https://shipmyform.com",
   "type": "module",
@@ -14,7 +14,9 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "sideEffects": false,
   "license": "MIT",
   "repository": {
@@ -22,7 +24,11 @@
     "url": "git+https://github.com/ShipMyForm/shipmyform-js.git",
     "directory": "packages/svelte"
   },
-  "keywords": ["shipmyform", "forms", "svelte"],
+  "keywords": [
+    "shipmyform",
+    "forms",
+    "svelte"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean --external svelte --external svelte/store"
   },

@@ -1,20 +1,26 @@
 {
   "name": "@shipmyform/astro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Astro component for submitting forms to ShipMyForm.",
   "homepage": "https://shipmyform.com",
   "type": "module",
   "exports": {
     "./ShipMyForm.astro": "./ShipMyForm.astro"
   },
-  "files": ["ShipMyForm.astro"],
+  "files": [
+    "ShipMyForm.astro"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ShipMyForm/shipmyform-js.git",
     "directory": "packages/astro"
   },
-  "keywords": ["shipmyform", "forms", "astro"],
+  "keywords": [
+    "shipmyform",
+    "forms",
+    "astro"
+  ],
   "dependencies": {
     "@shipmyform/core": "workspace:*"
   },
